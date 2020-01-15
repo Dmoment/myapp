@@ -1,5 +1,5 @@
 <h1>This is Article Page</h1>
-<%= form_for @article do |f| %>
+<%= form_with model: @article do |f| %>
 <p>
 <%= f.label :title %>
 <%= f.text_field :title %>
